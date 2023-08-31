@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', serif;
+    font-size: 1rem;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+    height: 42rem;
+    width: fit-content;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color:white;
+   
+}
+
+.svg {
+    border-radius: 20px;
+}
+
+.card-header {
+    padding-top: 2rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.card-text {
+    padding: 1.5rem;
+    color:  hsl(224, 23%, 55%);
+    text-align: center;
+}
+
+.annual {
+    color: hsl(223, 47%, 23%);
+}
+
+.amount {
+    color: hsl(224, 23%, 55%);
+
+}
+.card-price {
+    width: 22.5rem;
+    height: 8.5rem;
+    background-color:hsla(225, 100%, 94%, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.svg2 {
+    padding-left: 1rem;
+}
+.card-text2 {
+    padding-right: 6rem;
+}
+
+.p {
+    padding-right: 1rem;
+    text-decoration: underline;
+    color:  hsl(245, 75%, 52%);
+}
+
+.card-payment {
+    width: 22.5rem;
+    height: 5.5rem;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: 10px 10px hsl(225, 100%, 94%, 0.6);
+    border-radius: 15px;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-cancel {
+    margin: 0 0 2rem 0;
+    color:  hsl(224, 23%, 55%);
+}
+
+span {
+    font-weight: 700;
+}
